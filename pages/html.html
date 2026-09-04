@@ -1,0 +1,1770 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Clash-LAB — Curso HTML desde cero. Lección 2: estructura de una página HTML."
+    >
+
+    <meta
+        name="theme-color"
+        content="#080c18"
+    >
+
+    <title>
+        Lección 2 — Estructura HTML | Clash-LAB
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =================================
+         HEADER
+    ================================== -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a
+                href="../index.html"
+                class="logo"
+                aria-label="Volver a Clash-LAB"
+            >
+
+                <span
+                    class="logo-icon"
+                    aria-hidden="true"
+                >
+                    ⚡
+                </span>
+
+                CLASH-LAB
+
+            </a>
+
+
+            <nav
+                class="nav"
+                id="mainNav"
+                aria-label="Navegación principal"
+            >
+
+                <a
+                    href="../index.html"
+                    class="nav-link"
+                >
+                    Inicio
+                </a>
+
+                <a
+                    href="#curso"
+                    class="nav-link"
+                >
+                    Curso HTML
+                </a>
+
+                <a
+                    href="#leccion-2"
+                    class="nav-link"
+                >
+                    Lección 2
+                </a>
+
+                <a
+                    href="#practica"
+                    class="nav-link"
+                >
+                    Práctica
+                </a>
+
+            </nav>
+
+
+            <div class="header-actions">
+
+                <button
+                    class="theme-button"
+                    id="themeButton"
+                    type="button"
+                    aria-label="Cambiar tema"
+                    title="Cambiar tema"
+                >
+
+                    <span
+                        id="themeIcon"
+                        aria-hidden="true"
+                    >
+                        ☀️
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="mainNav"
+                    aria-label="Abrir menú"
+                >
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =================================
+         MAIN
+    ================================== -->
+
+    <main id="curso">
+
+
+        <!-- =================================
+             HERO DEL CURSO
+        ================================== -->
+
+        <section class="course-hero">
+
+            <div class="container course-hero-grid">
+
+                <div class="course-hero-content">
+
+                    <span class="course-badge">
+                        🟠 CURSO 01 · HTML
+                    </span>
+
+
+                    <p class="eyebrow">
+                        LECCIÓN 02
+                    </p>
+
+
+                    <h1>
+
+                        ENTENDÉ LA
+
+                        <span>
+                            ESTRUCTURA WEB.
+                        </span>
+
+                    </h1>
+
+
+                    <p class="course-hero-description">
+
+                        Ahora que ya sabés qué es HTML,
+                        vamos a descubrir cómo está
+                        organizada una página completa.
+
+                    </p>
+
+
+                    <div class="course-actions">
+
+                        <a
+                            href="#leccion-2"
+                            class="button button-primary"
+                        >
+                            🧱 Comenzar lección
+                        </a>
+
+
+                        <a
+                            href="../index.html"
+                            class="button button-secondary"
+                        >
+                            ← Volver al inicio
+                        </a>
+
+                    </div>
+
+
+                    <div class="course-meta">
+
+                        <span>
+                            📚 Lección 2 de 10
+                        </span>
+
+                        <span>
+                            🟢 Nivel inicial
+                        </span>
+
+                        <span>
+                            🧱 Estructura
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VISUAL -->
+
+                <div class="html-visual">
+
+                    <div class="html-browser">
+
+                        <div class="html-browser-top">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <strong>
+                                index.html
+                            </strong>
+
+                        </div>
+
+
+                        <div class="html-code-preview">
+
+                            <div>
+                                <span class="code-number">
+                                    01
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;!DOCTYPE html&gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    02
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;html&gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    03
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;head&gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    04
+                                </span>
+
+                                <span class="html-code-tag">
+                                    ...
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    05
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;/head&gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    06
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;body&gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    07
+                                </span>
+
+                                <span>
+                                    Contenido
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    08
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;/body&gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    09
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;/html&gt;
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PROGRESO
+        ================================== -->
+
+        <section class="course-progress-section">
+
+            <div class="container">
+
+                <div class="course-progress-card">
+
+                    <div class="progress-top">
+
+                        <div>
+
+                            <span class="progress-label">
+                                PROGRESO DEL CURSO
+                            </span>
+
+                            <strong id="courseProgressText">
+                                1 / 10 lecciones
+                            </strong>
+
+                        </div>
+
+
+                        <span
+                            class="progress-percentage"
+                            id="courseProgressPercentage"
+                        >
+                            10%
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="progress-fill"
+                            id="courseProgressFill"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             INTRODUCCIÓN
+        ================================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="lesson-header">
+
+                    <span class="lesson-badge">
+                        LECCIÓN 02
+                    </span>
+
+
+                    <p class="eyebrow">
+                        SEGUNDO PASO
+                    </p>
+
+
+                    <h2>
+                        LA ESTRUCTURA DE
+                        UNA PÁGINA HTML
+                    </h2>
+
+
+                    <p>
+
+                        Una página web no es un conjunto
+                        de etiquetas colocadas al azar.
+
+                        Existe una estructura que permite
+                        al navegador interpretar el documento.
+
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     IDEA CENTRAL
+                ================================== -->
+
+                <div class="concept-box">
+
+                    <div class="concept-icon">
+                        🧠
+                    </div>
+
+
+                    <div>
+
+                        <span class="concept-label">
+                            IDEA CENTRAL
+                        </span>
+
+
+                        <h3>
+                            Pensá en HTML como un edificio.
+                        </h3>
+
+
+                        <p>
+
+                            Hay una estructura general,
+                            habitaciones dentro de ella y
+                            contenido dentro de esas habitaciones.
+
+                            HTML funciona de una manera similar.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     ESTRUCTURA INTERACTIVA
+                ================================== -->
+
+                <div class="structure-learning">
+
+                    <div class="code-learning-heading">
+
+                        <p class="eyebrow">
+                            EXPLORÁ LA ESTRUCTURA
+                        </p>
+
+
+                        <h3>
+                            Hacé clic en cada parte.
+                        </h3>
+
+
+                        <p>
+
+                            Descubrí qué función cumple
+                            cada elemento del documento.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="structure-layout">
+
+
+                        <!-- CÓDIGO -->
+
+                        <div class="structure-code">
+
+                            <div class="editor-header">
+
+                                <div>
+
+                                    <span class="editor-dot">
+                                        HTML
+                                    </span>
+
+                                    <strong>
+                                        index.html
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="structure-code-body">
+
+
+                                <button
+                                    class="structure-line"
+                                    type="button"
+                                    data-structure="doctype"
+                                >
+
+                                    <span class="structure-line-number">
+                                        01
+                                    </span>
+
+                                    <code>
+                                        &lt;!DOCTYPE html&gt;
+                                    </code>
+
+                                </button>
+
+
+                                <button
+                                    class="structure-line"
+                                    type="button"
+                                    data-structure="html"
+                                >
+
+                                    <span class="structure-line-number">
+                                        02
+                                    </span>
+
+                                    <code>
+                                        &lt;html&gt;
+                                    </code>
+
+                                </button>
+
+
+                                <button
+                                    class="structure-line nested-line"
+                                    type="button"
+                                    data-structure="head"
+                                >
+
+                                    <span class="structure-line-number">
+                                        03
+                                    </span>
+
+                                    <code>
+                                        &lt;head&gt;
+                                    </code>
+
+                                </button>
+
+
+                                <div class="structure-code-static nested-line">
+                                    <span class="structure-line-number">
+                                        04
+                                    </span>
+
+                                    <code>
+                                        &lt;title&gt;Mi página&lt;/title&gt;
+                                    </code>
+                                </div>
+
+
+                                <button
+                                    class="structure-line nested-line"
+                                    type="button"
+                                    data-structure="head"
+                                >
+
+                                    <span class="structure-line-number">
+                                        05
+                                    </span>
+
+                                    <code>
+                                        &lt;/head&gt;
+                                    </code>
+
+                                </button>
+
+
+                                <button
+                                    class="structure-line nested-line"
+                                    type="button"
+                                    data-structure="body"
+                                >
+
+                                    <span class="structure-line-number">
+                                        06
+                                    </span>
+
+                                    <code>
+                                        &lt;body&gt;
+                                    </code>
+
+                                </button>
+
+
+                                <div class="structure-code-static deep-line">
+
+                                    <span class="structure-line-number">
+                                        07
+                                    </span>
+
+                                    <code>
+                                        Contenido visible
+                                    </code>
+
+                                </div>
+
+
+                                <button
+                                    class="structure-line nested-line"
+                                    type="button"
+                                    data-structure="body"
+                                >
+
+                                    <span class="structure-line-number">
+                                        08
+                                    </span>
+
+                                    <code>
+                                        &lt;/body&gt;
+                                    </code>
+
+                                </button>
+
+
+                                <button
+                                    class="structure-line"
+                                    type="button"
+                                    data-structure="html"
+                                >
+
+                                    <span class="structure-line-number">
+                                        09
+                                    </span>
+
+                                    <code>
+                                        &lt;/html&gt;
+                                    </code>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EXPLICACIÓN -->
+
+                        <aside
+                            class="structure-info"
+                            id="structureInfo"
+                            aria-live="polite"
+                        >
+
+                            <div class="structure-info-icon">
+                                🔎
+                            </div>
+
+
+                            <span class="concept-label">
+                                EXPLORADOR
+                            </span>
+
+
+                            <h3 id="structureInfoTitle">
+                                Seleccioná una parte
+                            </h3>
+
+
+                            <p id="structureInfoDescription">
+
+                                Tocá cualquiera de las
+                                partes del código para
+                                descubrir qué significa.
+
+                            </p>
+
+
+                            <div class="structure-info-code">
+
+                                <span>
+                                    CÓDIGO
+                                </span>
+
+
+                                <code id="structureInfoCode">
+                                    —
+                                </code>
+
+                            </div>
+
+                        </aside>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     DOCTYPE
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            01 · DOCTYPE
+                        </p>
+
+
+                        <h3>
+                            ¿Qué es `<!DOCTYPE html>`?
+                        </h3>
+
+
+                        <p>
+
+                            Le indica al navegador que el
+                            documento utiliza el estándar
+                            moderno de HTML.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="topic-card">
+
+                        <div class="topic-code">
+                            &lt;!DOCTYPE html&gt;
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                No es una etiqueta HTML común.
+                            </h4>
+
+
+                            <p>
+
+                                Es una declaración que aparece
+                                al comienzo del documento para
+                                indicar el tipo de documento.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     HTML
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            02 · HTML
+                        </p>
+
+
+                        <h3>
+                            El contenedor principal
+                        </h3>
+
+
+                        <p>
+
+                            El elemento
+                            <code>&lt;html&gt;</code>
+                            envuelve todo el documento HTML.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="breakdown-grid">
+
+                        <article class="breakdown-card">
+
+                            <div class="breakdown-code">
+                                &lt;html&gt;
+                            </div>
+
+
+                            <span class="breakdown-number">
+                                DOCUMENTO
+                            </span>
+
+
+                            <h4>
+                                Inicio
+                            </h4>
+
+
+                            <p>
+                                Marca el comienzo del elemento
+                                raíz del documento.
+                            </p>
+
+                        </article>
+
+
+                        <article class="breakdown-card">
+
+                            <div class="breakdown-code">
+                                &lt;head&gt;
+                            </div>
+
+
+                            <span class="breakdown-number">
+                                INFORMACIÓN
+                            </span>
+
+
+                            <h4>
+                                Datos de la página
+                            </h4>
+
+
+                            <p>
+                                Contiene información y recursos
+                                utilizados por el documento.
+                            </p>
+
+                        </article>
+
+
+                        <article class="breakdown-card">
+
+                            <div class="breakdown-code">
+                                &lt;body&gt;
+                            </div>
+
+
+                            <span class="breakdown-number">
+                                CONTENIDO
+                            </span>
+
+
+                            <h4>
+                                Lo que vemos
+                            </h4>
+
+
+                            <p>
+                                Contiene el contenido que forma
+                                la interfaz visible de la página.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     HEAD VS BODY
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            03 · HEAD VS BODY
+                        </p>
+
+
+                        <h3>
+                            ¿Cuál es la diferencia?
+                        </h3>
+
+                    </div>
+
+
+                    <div class="head-body-grid">
+
+                        <article class="head-body-card">
+
+                            <span class="head-body-icon">
+                                ⚙️
+                            </span>
+
+
+                            <h4>
+                                HEAD
+                            </h4>
+
+
+                            <p>
+
+                                Contiene información sobre
+                                el documento que normalmente
+                                no aparece como contenido
+                                principal de la página.
+
+                            </p>
+
+
+                            <code>
+                                &lt;title&gt;
+                            </code>
+
+                            <code>
+                                &lt;meta&gt;
+                            </code>
+
+                            <code>
+                                &lt;link&gt;
+                            </code>
+
+                        </article>
+
+
+                        <article class="head-body-card">
+
+                            <span class="head-body-icon">
+                                👁️
+                            </span>
+
+
+                            <h4>
+                                BODY
+                            </h4>
+
+
+                            <p>
+
+                                Contiene el contenido y los
+                                elementos que forman la
+                                experiencia visible del sitio.
+
+                            </p>
+
+
+                            <code>
+                                &lt;h1&gt;
+                            </code>
+
+                            <code>
+                                &lt;p&gt;
+                            </code>
+
+                            <code>
+                                &lt;button&gt;
+                            </code>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     DOCUMENTO COMPLETO
+                ================================== -->
+
+                <div class="first-code-section">
+
+                    <div class="code-learning-heading">
+
+                        <p class="eyebrow">
+                            TODO JUNTO
+                        </p>
+
+
+                        <h3>
+                            La estructura básica completa
+                        </h3>
+
+
+                        <p>
+
+                            Esta estructura será la base
+                            de muchísimas páginas que
+                            construiremos más adelante.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="full-document-card">
+
+                        <div class="full-document-header">
+
+                            <span>
+                                HTML
+                            </span>
+
+
+                            <button
+                                class="copy-button"
+                                type="button"
+                                data-copy-target="fullStructureCode"
+                            >
+                                📋 Copiar
+                            </button>
+
+                        </div>
+
+
+                        <pre><code id="fullStructureCode"><span class="code-highlight">&lt;!DOCTYPE html&gt;</span>
+<span class="code-highlight">&lt;html&gt;</span>
+
+    <span class="code-highlight">&lt;head&gt;</span>
+
+        &lt;title&gt;Mi página&lt;/title&gt;
+
+    <span class="code-highlight">&lt;/head&gt;</span>
+
+
+    <span class="code-highlight">&lt;body&gt;</span>
+
+        &lt;h1&gt;Hola Mundo&lt;/h1&gt;
+
+    <span class="code-highlight">&lt;/body&gt;</span>
+
+<span class="code-highlight">&lt;/html&gt;</span></code></pre>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     ERROR COMÚN
+                ================================== -->
+
+                <div class="warning-card">
+
+                    <span class="warning-icon">
+                        ⚠️
+                    </span>
+
+
+                    <div>
+
+                        <span class="concept-label">
+                            ERROR COMÚN
+                        </span>
+
+
+                        <h3>
+                            No mezcles HEAD y BODY.
+                        </h3>
+
+
+                        <p>
+
+                            Aunque el navegador puede ser
+                            tolerante con ciertos errores,
+                            mantener una estructura correcta
+                            hace que el documento sea más
+                            fácil de entender y mantener.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     PRÁCTICA
+                ================================== -->
+
+                <div
+                    class="practice-box"
+                    id="practica"
+                >
+
+                    <div class="practice-header">
+
+                        <span
+                            class="practice-icon"
+                            aria-hidden="true"
+                        >
+                            🧠
+                        </span>
+
+
+                        <div>
+
+                            <p class="eyebrow">
+                                DESAFÍO
+                            </p>
+
+
+                            <h3>
+                                Poné a prueba lo aprendido
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="practice-description">
+
+                        ¿Dónde debería estar el título de
+                        una página?
+
+                    </p>
+
+
+                    <div
+                        class="quiz-options"
+                        id="quizOptions"
+                    >
+
+                        <button
+                            class="quiz-option"
+                            type="button"
+                            data-answer="wrong"
+                        >
+                            <span>
+                                A
+                            </span>
+
+                            Dentro de
+                            <code>&lt;body&gt;</code>
+                        </button>
+
+
+                        <button
+                            class="quiz-option"
+                            type="button"
+                            data-answer="correct"
+                        >
+                            <span>
+                                B
+                            </span>
+
+                            Dentro de
+                            <code>&lt;head&gt;</code>
+                        </button>
+
+
+                        <button
+                            class="quiz-option"
+                            type="button"
+                            data-answer="wrong"
+                        >
+                            <span>
+                                C
+                            </span>
+
+                            Fuera de
+                            <code>&lt;html&gt;</code>
+                        </button>
+
+                    </div>
+
+
+                    <p
+                        class="quiz-feedback"
+                        id="quizFeedback"
+                        aria-live="polite"
+                    ></p>
+
+
+                    <button
+                        class="button button-primary lesson-complete-button"
+                        id="lessonTwoComplete"
+                        type="button"
+                    >
+                        ✅ Marcar Lección 2 como completada
+                    </button>
+
+
+                    <p
+                        class="practice-feedback"
+                        id="practiceFeedback"
+                        aria-live="polite"
+                    ></p>
+
+                </div>
+
+
+                <!-- =================================
+                     RESUMEN
+                ================================== -->
+
+                <div class="lesson-summary">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            RESUMEN
+                        </p>
+
+
+                        <h3>
+                            Ahora entendés la estructura.
+                        </h3>
+
+                    </div>
+
+
+                    <div class="summary-grid">
+
+                        <div class="summary-item">
+
+                            <span>
+                                01
+                            </span>
+
+                            <p>
+                                <strong>
+                                    DOCTYPE
+                                </strong>
+                                indica el tipo de documento.
+                            </p>
+
+                        </div>
+
+
+                        <div class="summary-item">
+
+                            <span>
+                                02
+                            </span>
+
+                            <p>
+                                <strong>
+                                    HTML
+                                </strong>
+                                contiene todo el documento.
+                            </p>
+
+                        </div>
+
+
+                        <div class="summary-item">
+
+                            <span>
+                                03
+                            </span>
+
+                            <p>
+                                <strong>
+                                    HEAD y BODY
+                                </strong>
+                                cumplen funciones diferentes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     NAVEGACIÓN
+                ================================== -->
+
+                <div class="lesson-navigation">
+
+                    <a
+                        href="#curso"
+                        class="lesson-nav-link"
+                    >
+                        ↑ Volver al comienzo
+                    </a>
+
+
+                    <a
+                        href="#lecciones"
+                        class="button button-secondary"
+                    >
+                        Ver recorrido →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             RECORRIDO
+        ================================== -->
+
+        <section
+            class="section section-alt"
+            id="lecciones"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        PROGRESO
+                    </p>
+
+
+                    <h2>
+                        TU RECORRIDO HTML
+                    </h2>
+
+
+                    <p>
+                        La Lección 2 ya está disponible.
+                    </p>
+
+                </div>
+
+
+                <div class="lessons-list">
+
+
+                    <article
+                        class="lesson-card lesson-card-completed"
+                    >
+
+                        <div class="lesson-number">
+                            01
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🟢 COMPLETADA
+                            </div>
+
+
+                            <h3>
+                                ¿Qué es HTML?
+                            </h3>
+
+
+                            <p>
+                                Aprendiste qué es HTML y
+                                construiste tu primer elemento.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article
+                        class="lesson-card lesson-card-active"
+                    >
+
+                        <div class="lesson-number">
+                            02
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🟠 ACTUAL
+                            </div>
+
+
+                            <h3>
+                                La estructura de una página
+                            </h3>
+
+
+                            <p>
+                                Aprendiste DOCTYPE, HTML,
+                                HEAD y BODY.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            03
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Etiquetas y elementos
+                            </h3>
+
+
+                            <p>
+                                La diferencia entre etiquetas,
+                                elementos y atributos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            04
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Títulos y párrafos
+                            </h3>
+
+
+                            <p>
+                                Organización y jerarquía
+                                del contenido.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            05
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Enlaces
+                            </h3>
+
+
+                            <p>
+                                Conectar documentos y páginas.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            06
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Imágenes
+                            </h3>
+
+
+                            <p>
+                                Incorporar imágenes correctamente.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            07
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Listas
+                            </h3>
+
+
+                            <p>
+                                Crear listas ordenadas y
+                                desordenadas.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            08
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Botones
+                            </h3>
+
+
+                            <p>
+                                Botones, enlaces y acciones.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            09
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Formularios
+                            </h3>
+
+
+                            <p>
+                                Recibir datos del usuario.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            10
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Proyecto final
+                            </h3>
+
+
+                            <p>
+                                Construir una página completa.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a
+                    href="../index.html"
+                    class="logo"
+                >
+
+                    <span
+                        class="logo-icon"
+                        aria-hidden="true"
+                    >
+                        ⚡
+                    </span>
+
+                    CLASH-LAB
+
+                </a>
+
+
+                <p>
+                    Aprendé cómo funciona la Web.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Curso
+                </h3>
+
+
+                <a href="#curso">
+                    Inicio
+                </a>
+
+
+                <a href="#leccion-2">
+                    Lección 2
+                </a>
+
+
+                <a href="#practica">
+                    Desafío
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Clash-LAB
+                </h3>
+
+
+                <a href="../index.html">
+                    Página principal
+                </a>
+
+
+                <a href="../index.html#explorador">
+                    Explorador
+                </a>
+
+
+                <a href="../index.html#laboratorio">
+                    Laboratorio
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 Clash-LAB.
+                Proyecto educativo gratuito.
+            </p>
+
+
+            <p>
+                HTML • CSS • JavaScript
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
