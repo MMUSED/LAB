@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Clash-LAB — Curso HTML desde cero. Lección 3: etiquetas, elementos y atributos."
+    >
+
+    <meta
+        name="theme-color"
+        content="#080c18"
+    >
+
+    <title>
+        Lección 3 — Etiquetas, elementos y atributos | Clash-LAB
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =================================
+         HEADER
+    ================================== -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a
+                href="../index.html"
+                class="logo"
+                aria-label="Volver a Clash-LAB"
+            >
+
+                <span
+                    class="logo-icon"
+                    aria-hidden="true"
+                >
+                    ⚡
+                </span>
+
+                <span>
+                    CLASH-LAB
+                </span>
+
+            </a>
+
+
+            <nav
+                class="nav"
+                id="mainNav"
+                aria-label="Navegación principal"
+            >
+
+                <a
+                    href="../index.html"
+                    class="nav-link"
+                >
+                    Inicio
+                </a>
+
+                <a
+                    href="#curso"
+                    class="nav-link"
+                >
+                    Curso HTML
+                </a>
+
+                <a
+                    href="#leccion-3"
+                    class="nav-link"
+                >
+                    Lección 3
+                </a>
+
+                <a
+                    href="#practica"
+                    class="nav-link"
+                >
+                    Práctica
+                </a>
+
+            </nav>
+
+
+            <div class="header-actions">
+
+                <button
+                    class="theme-button"
+                    id="themeButton"
+                    type="button"
+                    aria-label="Cambiar tema"
+                    title="Cambiar tema"
+                >
+
+                    <span
+                        id="themeIcon"
+                        aria-hidden="true"
+                    >
+                        ☀️
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="mainNav"
+                    aria-label="Abrir menú"
+                >
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =================================
+         MAIN
+    ================================== -->
+
+    <main id="curso">
+
+
+        <!-- =================================
+             HERO
+        ================================== -->
+
+        <section class="course-hero">
+
+            <div class="container course-hero-grid">
+
+                <div class="course-hero-content">
+
+                    <span class="course-badge">
+                        🟠 CURSO 01 · HTML
+                    </span>
+
+
+                    <p class="eyebrow">
+                        LECCIÓN 03
+                    </p>
+
+
+                    <h1>
+
+                        APRENDÉ A
+
+                        <span>
+                            LEER HTML.
+                        </span>
+
+                    </h1>
+
+
+                    <p class="course-hero-description">
+
+                        Ahora vamos a entender la diferencia
+                        entre etiquetas, elementos y atributos.
+                        Esta es una de las bases más importantes
+                        para escribir HTML correctamente.
+
+                    </p>
+
+
+                    <div class="course-actions">
+
+                        <a
+                            href="#leccion-3"
+                            class="button button-primary"
+                        >
+                            🧩 Comenzar lección
+                        </a>
+
+
+                        <a
+                            href="../index.html"
+                            class="button button-secondary"
+                        >
+                            ← Volver al inicio
+                        </a>
+
+                    </div>
+
+
+                    <div class="course-meta">
+
+                        <span>
+                            📚 Lección 3 de 10
+                        </span>
+
+                        <span>
+                            🟢 Nivel inicial
+                        </span>
+
+                        <span>
+                            🧩 Fundamentos
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     VISUAL
+                ================================== -->
+
+                <div class="html-visual">
+
+                    <div class="html-browser">
+
+                        <div class="html-browser-top">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <strong>
+                                ejemplo.html
+                            </strong>
+
+                        </div>
+
+
+                        <div class="html-code-preview">
+
+                            <div>
+                                <span class="code-number">
+                                    01
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;a
+                                </span>
+
+                                <span>
+                                    href="index.html"
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &gt;
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    02
+                                </span>
+
+                                <span>
+                                    Inicio
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <span class="code-number">
+                                    03
+                                </span>
+
+                                <span class="html-code-tag">
+                                    &lt;/a&gt;
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PROGRESO
+        ================================== -->
+
+        <section class="course-progress-section">
+
+            <div class="container">
+
+                <div class="course-progress-card">
+
+                    <div class="progress-top">
+
+                        <div>
+
+                            <span class="progress-label">
+                                PROGRESO DEL CURSO
+                            </span>
+
+                            <strong id="courseProgressText">
+                                2 / 10 lecciones
+                            </strong>
+
+                        </div>
+
+
+                        <span
+                            class="progress-percentage"
+                            id="courseProgressPercentage"
+                        >
+                            20%
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress-bar">
+
+                        <div
+                            class="progress-fill"
+                            id="courseProgressFill"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             LECCIÓN 3
+        ================================== -->
+
+        <section
+            class="section section-alt"
+            id="leccion-3"
+        >
+
+            <div class="container">
+
+                <div class="lesson-header">
+
+                    <span class="lesson-badge">
+                        LECCIÓN 03
+                    </span>
+
+
+                    <p class="eyebrow">
+                        TERCER PASO
+                    </p>
+
+
+                    <h2>
+                        ETIQUETAS,
+                        ELEMENTOS Y ATRIBUTOS
+                    </h2>
+
+
+                    <p>
+
+                        Para leer y escribir HTML con confianza
+                        necesitamos saber exactamente qué
+                        representa cada parte del código.
+
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     CONCEPTO INICIAL
+                ================================== -->
+
+                <div class="concept-box">
+
+                    <div class="concept-icon">
+                        🧠
+                    </div>
+
+
+                    <div>
+
+                        <span class="concept-label">
+                            IDEA CENTRAL
+                        </span>
+
+
+                        <h3>
+                            No todo lo que ves entre &lt; &gt;
+                            es un elemento completo.
+                        </h3>
+
+
+                        <p>
+
+                            Una etiqueta es una parte del código.
+                            Un elemento puede incluir etiqueta de
+                            apertura, contenido y etiqueta de cierre.
+                            Un atributo agrega información adicional.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     LOS 3 CONCEPTOS
+                ================================== -->
+
+                <div class="three-concepts">
+
+                    <article class="three-concept-card">
+
+                        <span class="three-concept-icon">
+                            🏷️
+                        </span>
+
+
+                        <span class="concept-label">
+                            01
+                        </span>
+
+
+                        <h3>
+                            Etiqueta
+                        </h3>
+
+
+                        <p>
+
+                            Es la marca utilizada para
+                            identificar un elemento HTML.
+
+                        </p>
+
+
+                        <code>
+                            &lt;p&gt;
+                        </code>
+
+                    </article>
+
+
+                    <article class="three-concept-card">
+
+                        <span class="three-concept-icon">
+                            🧱
+                        </span>
+
+
+                        <span class="concept-label">
+                            02
+                        </span>
+
+
+                        <h3>
+                            Elemento
+                        </h3>
+
+
+                        <p>
+
+                            Es la combinación del conjunto
+                            que forma una pieza de HTML.
+
+                        </p>
+
+
+                        <code>
+                            &lt;p&gt;Hola&lt;/p&gt;
+                        </code>
+
+                    </article>
+
+
+                    <article class="three-concept-card">
+
+                        <span class="three-concept-icon">
+                            ⚙️
+                        </span>
+
+
+                        <span class="concept-label">
+                            03
+                        </span>
+
+
+                        <h3>
+                            Atributo
+                        </h3>
+
+
+                        <p>
+
+                            Agrega información adicional
+                            o configuración al elemento.
+
+                        </p>
+
+
+                        <code>
+                            href="index.html"
+                        </code>
+
+                    </article>
+
+                </div>
+
+
+                <!-- =================================
+                     DESARMADOR INTERACTIVO
+                ================================== -->
+
+                <div class="tag-anatomy">
+
+                    <div class="code-learning-heading">
+
+                        <p class="eyebrow">
+                            🔎 DESARMÁ EL CÓDIGO
+                        </p>
+
+
+                        <h3>
+                            Hacé clic en cada parte.
+                        </h3>
+
+
+                        <p>
+
+                            Vamos a analizar este elemento:
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="anatomy-layout">
+
+
+                        <!-- CÓDIGO -->
+
+                        <div class="anatomy-code">
+
+                            <div class="editor-header">
+
+                                <div>
+
+                                    <span class="editor-dot">
+                                        HTML
+                                    </span>
+
+                                    <strong>
+                                        ejemplo.html
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="anatomy-code-body">
+
+                                <button
+                                    class="anatomy-part"
+                                    type="button"
+                                    data-anatomy="opening"
+                                >
+
+                                    <span>
+                                        &lt;button
+                                    </span>
+
+                                    <span
+                                        class="attribute-piece"
+                                        data-anatomy-inner="attribute"
+                                    >
+                                        type="button"
+                                    </span>
+
+                                    <span>
+                                        &gt;
+                                    </span>
+
+                                </button>
+
+
+                                <button
+                                    class="anatomy-part"
+                                    type="button"
+                                    data-anatomy="content"
+                                >
+
+                                    Haz clic aquí
+
+                                </button>
+
+
+                                <button
+                                    class="anatomy-part"
+                                    type="button"
+                                    data-anatomy="closing"
+                                >
+
+                                    &lt;/button&gt;
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- INFORMACIÓN -->
+
+                        <aside
+                            class="anatomy-info"
+                            id="anatomyInfo"
+                        >
+
+                            <div
+                                class="structure-info-icon"
+                                id="anatomyInfoIcon"
+                            >
+                                🔎
+                            </div>
+
+
+                            <span class="concept-label">
+                                EXPLORADOR
+                            </span>
+
+
+                            <h3 id="anatomyInfoTitle">
+                                Seleccioná una parte
+                            </h3>
+
+
+                            <p id="anatomyInfoDescription">
+
+                                Tocá una parte del elemento
+                                para descubrir qué significa.
+
+                            </p>
+
+
+                            <div class="structure-info-code">
+
+                                <span>
+                                    PARTE ANALIZADA
+                                </span>
+
+
+                                <code id="anatomyInfoCode">
+                                    —
+                                </code>
+
+                            </div>
+
+                        </aside>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     APERTURA
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            01 · ETIQUETA DE APERTURA
+                        </p>
+
+
+                        <h3>
+                            ¿Dónde empieza el elemento?
+                        </h3>
+
+
+                        <p>
+
+                            La etiqueta de apertura marca
+                            el comienzo de un elemento.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="topic-card">
+
+                        <div class="topic-code">
+                            &lt;h1&gt;
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                La etiqueta de apertura
+                            </h4>
+
+
+                            <p>
+
+                                En este ejemplo,
+                                <code>&lt;h1&gt;</code>
+                                indica que comienza un
+                                encabezado de nivel 1.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     CONTENIDO
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            02 · CONTENIDO
+                        </p>
+
+
+                        <h3>
+                            Lo que hay dentro
+                        </h3>
+
+
+                        <p>
+
+                            Entre las etiquetas puede
+                            existir contenido que el navegador
+                            mostrará o utilizará.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="topic-card">
+
+                        <div class="topic-code">
+                            Hola Mundo
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                El contenido
+                            </h4>
+
+
+                            <p>
+
+                                En este caso, el texto
+                                <strong>Hola Mundo</strong>
+                                es el contenido del elemento.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     CIERRE
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            03 · ETIQUETA DE CIERRE
+                        </p>
+
+
+                        <h3>
+                            ¿Dónde termina?
+                        </h3>
+
+
+                        <p>
+
+                            Muchos elementos tienen una
+                            etiqueta de cierre que indica
+                            dónde finaliza el contenido.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="topic-card">
+
+                        <div class="topic-code">
+                            &lt;/h1&gt;
+                        </div>
+
+
+                        <div>
+
+                            <h4>
+                                La etiqueta de cierre
+                            </h4>
+
+
+                            <p>
+
+                                La barra
+                                <code>/</code>
+                                permite diferenciar la
+                                etiqueta de cierre.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     ATRIBUTOS
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            04 · ATRIBUTOS
+                        </p>
+
+
+                        <h3>
+                            Agregando información adicional
+                        </h3>
+
+
+                        <p>
+
+                            Los atributos aparecen dentro
+                            de la etiqueta de apertura.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="attribute-demo">
+
+                        <div class="attribute-code">
+
+                            <span class="attribute-tag">
+                                &lt;a
+                            </span>
+
+                            <span class="attribute-name">
+                                href
+                            </span>
+
+                            <span class="attribute-equals">
+                                =
+                            </span>
+
+                            <span class="attribute-value">
+                                "index.html"
+                            </span>
+
+                            <span class="attribute-tag">
+                                &gt;
+                            </span>
+
+                            <span>
+                                Inicio
+                            </span>
+
+                            <span class="attribute-tag">
+                                &lt;/a&gt;
+                            </span>
+
+                        </div>
+
+
+                        <div class="attribute-parts">
+
+                            <div>
+
+                                <strong>
+                                    href
+                                </strong>
+
+                                <span>
+                                    Nombre del atributo
+                                </span>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    =
+                                </strong>
+
+                                <span>
+                                    Asigna el valor
+                                </span>
+
+                            </div>
+
+
+                            <div>
+
+                                <strong>
+                                    "index.html"
+                                </strong>
+
+                                <span>
+                                    Valor del atributo
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     ELEMENTOS ANIDADOS
+                ================================== -->
+
+                <div class="lesson-topic">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            05 · ANIDAMIENTO
+                        </p>
+
+
+                        <h3>
+                            Los elementos pueden contener
+                            otros elementos.
+                        </h3>
+
+
+                        <p>
+
+                            HTML se organiza como una
+                            estructura de elementos dentro
+                            de otros elementos.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="nested-demo">
+
+                        <div class="nested-code">
+
+                            <div>
+                                <span class="nested-number">
+                                    01
+                                </span>
+
+                                <span>
+                                    &lt;div&gt;
+                                </span>
+                            </div>
+
+
+                            <div class="nested-indent">
+
+                                <span class="nested-number">
+                                    02
+                                </span>
+
+                                <span>
+                                    &lt;h1&gt;
+                                </span>
+
+                                Hola
+
+                                <span>
+                                    &lt;/h1&gt;
+                                </span>
+
+                            </div>
+
+
+                            <div class="nested-indent">
+
+                                <span class="nested-number">
+                                    03
+                                </span>
+
+                                <span>
+                                    &lt;p&gt;
+                                </span>
+
+                                Texto
+
+                                <span>
+                                    &lt;/p&gt;
+                                </span>
+
+                            </div>
+
+
+                            <div>
+
+                                <span class="nested-number">
+                                    04
+                                </span>
+
+                                <span>
+                                    &lt;/div&gt;
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="nested-result">
+
+                            <div class="nested-result-box">
+
+                                <h3>
+                                    Hola
+                                </h3>
+
+
+                                <p>
+                                    Texto
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     ERROR COMÚN
+                ================================== -->
+
+                <div class="warning-card">
+
+                    <span class="warning-icon">
+                        ⚠️
+                    </span>
+
+
+                    <div>
+
+                        <span class="concept-label">
+                            ERROR COMÚN
+                        </span>
+
+
+                        <h3>
+                            No olvides diferenciar etiqueta y elemento.
+                        </h3>
+
+
+                        <p>
+
+                            <code>&lt;p&gt;</code> es una etiqueta
+                            de apertura.
+
+                            <code>
+                                &lt;p&gt;Hola&lt;/p&gt;
+                            </code>
+
+                            representa el elemento completo.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     QUIZ
+                ================================== -->
+
+                <div
+                    class="practice-box"
+                    id="practica"
+                >
+
+                    <div class="practice-header">
+
+                        <span
+                            class="practice-icon"
+                            aria-hidden="true"
+                        >
+                            🧠
+                        </span>
+
+
+                        <div>
+
+                            <p class="eyebrow">
+                                DESAFÍO FINAL
+                            </p>
+
+
+                            <h3>
+                                ¿Qué es un atributo?
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <p class="practice-description">
+
+                        Elegí la respuesta correcta:
+
+                    </p>
+
+
+                    <div
+                        class="quiz-options"
+                        id="quizOptions"
+                    >
+
+                        <button
+                            class="quiz-option"
+                            type="button"
+                            data-answer="wrong"
+                        >
+
+                            <span>
+                                A
+                            </span>
+
+                            El contenido que aparece
+                            entre las etiquetas.
+
+                        </button>
+
+
+                        <button
+                            class="quiz-option"
+                            type="button"
+                            data-answer="correct"
+                        >
+
+                            <span>
+                                B
+                            </span>
+
+                            Información adicional que
+                            se agrega al elemento.
+
+                        </button>
+
+
+                        <button
+                            class="quiz-option"
+                            type="button"
+                            data-answer="wrong"
+                        >
+
+                            <span>
+                                C
+                            </span>
+
+                            La etiqueta de cierre.
+
+                        </button>
+
+                    </div>
+
+
+                    <p
+                        class="quiz-feedback"
+                        id="quizFeedback"
+                        aria-live="polite"
+                    ></p>
+
+
+                    <button
+                        class="button button-primary lesson-complete-button"
+                        id="lessonThreeComplete"
+                        type="button"
+                    >
+                        ✅ Marcar Lección 3 como completada
+                    </button>
+
+
+                    <p
+                        class="practice-feedback"
+                        id="practiceFeedback"
+                        aria-live="polite"
+                    ></p>
+
+                </div>
+
+
+                <!-- =================================
+                     RESUMEN
+                ================================== -->
+
+                <div class="lesson-summary">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            RESUMEN
+                        </p>
+
+
+                        <h3>
+                            Ya podés leer un elemento HTML.
+                        </h3>
+
+                    </div>
+
+
+                    <div class="summary-grid">
+
+                        <div class="summary-item">
+
+                            <span>
+                                01
+                            </span>
+
+                            <p>
+                                Una <strong>etiqueta</strong>
+                                identifica una parte del HTML.
+                            </p>
+
+                        </div>
+
+
+                        <div class="summary-item">
+
+                            <span>
+                                02
+                            </span>
+
+                            <p>
+                                Un <strong>elemento</strong>
+                                representa el conjunto completo.
+                            </p>
+
+                        </div>
+
+
+                        <div class="summary-item">
+
+                            <span>
+                                03
+                            </span>
+
+                            <p>
+                                Un <strong>atributo</strong>
+                                proporciona información adicional.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================
+                     SIGUIENTE
+                ================================== -->
+
+                <div class="lesson-navigation">
+
+                    <a
+                        href="#curso"
+                        class="lesson-nav-link"
+                    >
+                        ↑ Volver al comienzo
+                    </a>
+
+
+                    <a
+                        href="#lecciones"
+                        class="button button-primary"
+                    >
+                        Ver recorrido →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             RECORRIDO
+        ================================== -->
+
+        <section
+            class="section"
+            id="lecciones"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        TU CAMINO
+                    </p>
+
+
+                    <h2>
+                        RECORRIDO HTML
+                    </h2>
+
+
+                    <p>
+                        Seguimos construyendo
+                        conocimiento paso a paso.
+                    </p>
+
+                </div>
+
+
+                <div class="lessons-list">
+
+
+                    <article class="lesson-card lesson-card-completed">
+
+                        <div class="lesson-number">
+                            01
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🟢 COMPLETADA
+                            </div>
+
+
+                            <h3>
+                                ¿Qué es HTML?
+                            </h3>
+
+
+                            <p>
+                                Estructura y primer elemento HTML.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card lesson-card-completed">
+
+                        <div class="lesson-number">
+                            02
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🟢 COMPLETADA
+                            </div>
+
+
+                            <h3>
+                                Estructura de una página
+                            </h3>
+
+
+                            <p>
+                                DOCTYPE, HTML, HEAD y BODY.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card lesson-card-active">
+
+                        <div class="lesson-number">
+                            03
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🟠 ACTUAL
+                            </div>
+
+
+                            <h3>
+                                Etiquetas, elementos y atributos
+                            </h3>
+
+
+                            <p>
+                                Aprendé a leer y desarmar
+                                código HTML.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            04
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Títulos y párrafos
+                            </h3>
+
+
+                            <p>
+                                Jerarquía y organización
+                                del contenido.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            05
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Enlaces
+                            </h3>
+
+
+                            <p>
+                                Conectá páginas y documentos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            06
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Imágenes
+                            </h3>
+
+
+                            <p>
+                                Mostrá imágenes de forma correcta.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            07
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Listas
+                            </h3>
+
+
+                            <p>
+                                Listas ordenadas y desordenadas.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            08
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Botones
+                            </h3>
+
+
+                            <p>
+                                Botones, enlaces y acciones.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            09
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Formularios
+                            </h3>
+
+
+                            <p>
+                                Recibir información del usuario.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="lesson-card">
+
+                        <div class="lesson-number">
+                            10
+                        </div>
+
+
+                        <div class="lesson-main">
+
+                            <div class="lesson-status">
+                                🔒 PRÓXIMAMENTE
+                            </div>
+
+
+                            <h3>
+                                Proyecto final
+                            </h3>
+
+
+                            <p>
+                                Construí una página completa.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a
+                    href="../index.html"
+                    class="logo"
+                >
+
+                    <span
+                        class="logo-icon"
+                        aria-hidden="true"
+                    >
+                        ⚡
+                    </span>
+
+                    CLASH-LAB
+
+                </a>
+
+
+                <p>
+                    Aprendé cómo funciona la Web.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Curso
+                </h3>
+
+
+                <a href="#curso">
+                    Inicio
+                </a>
+
+
+                <a href="#leccion-3">
+                    Lección 3
+                </a>
+
+
+                <a href="#practica">
+                    Desafío
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Clash-LAB
+                </h3>
+
+
+                <a href="../index.html">
+                    Página principal
+                </a>
+
+
+                <a href="../index.html#explorador">
+                    Explorador
+                </a>
+
+
+                <a href="../index.html#laboratorio">
+                    Laboratorio
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <p>
+                © 2026 Clash-LAB.
+                Proyecto educativo gratuito.
+            </p>
+
+
+            <p>
+                HTML • CSS • JavaScript
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
